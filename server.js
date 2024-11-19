@@ -2,7 +2,7 @@ const express=require("express")
 const app=express()
 //route
 app.get('/',(req,res)=>{
-    res.send('hello matoherfucker')
+    res.send('hello')
 
 })
 app.listen(3000,()=>{
